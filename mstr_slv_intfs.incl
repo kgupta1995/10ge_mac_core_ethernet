@@ -1,0 +1,3 @@
+
+`include "tx_sv_eth_eth_tx_intf.sv" 
+`include "rx_sv_eth_eth_rx_intf.sv"

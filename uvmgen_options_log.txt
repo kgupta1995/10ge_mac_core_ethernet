@@ -1,0 +1,25 @@
+UVM Version : 2 
+Complete Env.(1) OR Individual Template(2)? : 1 
+Want to create your own methods[Instead of uvm shorthand macros]? : n 
+RAL env? : 0 
+Env. Name : env_sv_eth 
+Agents? : y 
+Name of master agent:  : tx_sv_eth 
+Name of sequencer in tx_sv_eth master agent:  : eth_sv_sequencer 
+Name of driver in tx_sv_eth master agent:  : eth_driver 
+Name of monitor in tx_sv_eth master agent:  : eth_mon 
+Name of interface related to tx_sv_eth master agent:  : eth_tx_intf 
+Name of transaction in tx_sv_eth master agent:  : eth_data 
+BU class for this transaction? : n 
+Name of slave agent:  : rx_sv_eth 
+Name of sequencer in rx_sv_eth slave agent:  : eth_rx_sv_seq 
+Name of driver in rx_sv_eth slave agent:  : eth_rx_driver 
+Name of monitor in rx_sv_eth slave agent:  : eth_rx_mon 
+Name of physical interface related to rx_sv_eth slave agent:  : eth_rx_intf 
+Name of transaction related to rx_sv_eth slave agent:  : eth_data 
+Driver information for the slave agent rx_sv_eth :  :  
+Driver Type : Driver, PULL DRIVER (uvm_driver) 
+Driver information for the master agent tx_sv_eth :  :  
+Driver Type : Driver, PULL DRIVER (uvm_driver) 
+Scoreboard? : y 
+Name of Scoreboard Class : scoreboard 

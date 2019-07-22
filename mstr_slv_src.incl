@@ -1,0 +1,12 @@
+
+`include "tx_sv_eth_eth_mon.sv" 
+`include "tx_sv_eth_sequence_library.sv" 
+`include "tx_sv_eth_eth_sv_sequencer.sv" 
+`include "tx_sv_eth_eth_data.sv" 
+`include "tx_sv_eth_eth_driver.sv" 
+`include "tx_sv_eth.sv" 
+`include "rx_sv_eth_eth_rx_sv_seq.sv"
+`include "rx_sv_eth_eth_data.sv"
+`include "rx_sv_eth_eth_rx_mon.sv"
+`include "rx_sv_eth_eth_rx_driver.sv"
+`include "rx_sv_eth.sv"
